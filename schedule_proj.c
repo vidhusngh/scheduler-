@@ -28,7 +28,5 @@ for(i=0;i<n;i++)
         scanf("%d",&burst_time[i]);
         remaningt[i]=burst_time[i];    
 }
-  printf("The time limit for a single process to hold the cpu at a time is defined as:%d\t",time_limit=10); 
-
-  printf("\n\nProcess\t Turnaround Time  Waiting Time\n\n"); 
+  
 }
