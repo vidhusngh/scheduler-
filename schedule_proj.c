@@ -2,7 +2,7 @@
 #include<string.h>
 int main() 
 {
-int i,j,n,burst_time[10],process[10];
+int i,j,n,burst_time[10],pro[10];
   int waiting_time=0,turnaround_time=0;
   float average_waiting,average_turnaround;
   int time;
@@ -19,7 +19,9 @@ scanf("\n%d",&n);
 for(i=0;i<n;i++)
 {
         printf("p%d:",i+1);
-        scanf("%d",&arrival_time[i]);   
+        scanf("%d",&arrival_time[i]); 
+  if (arrival_time[i]<3){printf("cpu is idle for 3 seconds and will put process in ready queue prior 3 seconds\n");
+        pro[i]=3-arrival_time[i];
 }
 
 printf("\nEnter Burst Time for: \n");
