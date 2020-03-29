@@ -21,7 +21,7 @@ for(i=0;i<n;i++)
         printf("p%d:",i+1);
         scanf("%d",&arrival_time[i]); 
   if (arrival_time[i]<3){printf("cpu is idle for 3 seconds and will put process in ready queue prior 3 seconds\n");
-        pro[i]=3-arrival_time[i];
+        pro[i]=3-arrival_time[i];}
 }
 
 printf("\nEnter Burst Time for: \n");
