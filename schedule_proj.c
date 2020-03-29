@@ -9,7 +9,7 @@ int i,j,n,burst_time[10],process[10];
   int f=0; 
   int arrival_time[10],remaningt[10]; 
   int rp=n;
-printf("PREEMPTIVE SHORTEST JOB FIRST SCHEDULER\n");
+printf("SCHEDULER\n");
 int time_limit=10;
 
  printf("Enter the total number of processes to be held:");
